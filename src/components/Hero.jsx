@@ -46,10 +46,11 @@ function Hero() {
           alt="Plant"
           className="  
           absolute
-          -left-16
-          top-1/7
+          -left-9
+          top-1/3
           -translate-y-1/2
-          h-110
+          h-140
+          w-300
           z-20"
         />
 

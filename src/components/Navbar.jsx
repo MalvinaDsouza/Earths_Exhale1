@@ -10,7 +10,7 @@ function Navbar() {
           className="w-12 h-12 object-contain"
         />
 
-        <h1 className="text-2xl font-bold">FloraVision.</h1>
+        <h1 className="text-2xl ">FloraVision.</h1>
       </div>
 
       <ul className="hidden md:flex gap-10 nav-font">
