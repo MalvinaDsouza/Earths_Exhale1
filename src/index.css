@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+body{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+  background:#1b2316;
+  color:white;
+}
+
+.glass{
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+  border:1px solid rgba(255,255,255,0.15);
+}
+
+.hero-bg{
+  background-image:url('/images/fa0765984e44f85e1a04562f820f1492949a1257.jpg');
+  background-size:cover;
+  background-position:center;
+}
+.nav-font{
+  font-family: 'Indie Flower', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.demo-font{
+  font-family: 'Indie Flower', cursive;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+
