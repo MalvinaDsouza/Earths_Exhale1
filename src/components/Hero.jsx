@@ -44,7 +44,13 @@ function Hero() {
         <img
           src="/images/c8eb5b1abede1308e0eaf899d1f7faae62a0c2f6 (1).png"
           alt="Plant"
-          className="mx-auto h-80 mt-4"
+          className="  
+          absolute
+          -left-16
+          top-1/7
+          -translate-y-1/2
+          h-110
+          z-20"
         />
 
         <div className="mt-auto">
