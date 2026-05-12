@@ -1,16 +1,101 @@
-# React + Vite
+# Earth’s Exhale
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium plant showcase website built using React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+Features include:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive modern UI
+- Glassmorphism design
+- Custom plant product cards
+- Customer reviews section
+- Interactive navigation
+- Smooth custom styling
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Tailwind CSS v4
+- Vite
+- React Icons
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+frontend/
+│
+├── public/
+│ └── images/
+│
+├── src/
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ ├── Hero.jsx
+│ │ ├── ReviewCard.jsx
+│ │ ├── ProductCard.jsx
+│ │ ├── TopSelling.jsx
+│ │ └── FinalSection.jsx
+│ │
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+
+## Setup Instructions
+
+### 1. Clone Repository
+
+git clone <your-github-repo-url>
+
+cd frontend
+
+### 2. Install Dependencies
+
+npm install
+
+### 3. Run Development Server
+
+npm run dev
+
+Application runs at:
+
+http://localhost:5173
+
+## Build for Production
+
+npm run build
+
+## Preview Production Build
+
+npm run preview
+
+## Required Packages
+
+If needed, install manually:
+
+npm install react-icons
+npm install tailwindcss @tailwindcss/vite
+
+## Tailwind Setup
+
+vite.config.js
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+plugins: [
+react(),
+tailwindcss(),
+],
+})
+
+src/index.css
+
+@import "tailwindcss";
+
+## Author
+
+Malvina Dsouza
